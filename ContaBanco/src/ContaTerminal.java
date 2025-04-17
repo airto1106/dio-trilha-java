@@ -8,6 +8,7 @@ public class ContaTerminal {
     }
 
     public static void main(String[] args) {
+        //todo: intuito dessa aplicação é exibe o nome, agencia, número da conta e saldo, sendo os dados fornecidos pelos usuários.
         try (Scanner sc = new Scanner(System.in)) {
             // exibindo mensagem de boas-vindas ao usuario.
             System.out.println("'-----------------------------------------------------'");
